@@ -8,8 +8,8 @@
     --blur: 10px;
   }
   img {
-    height: 29%;
-    width:29%;
+    height: 28%;
+    width:28%;
     padding: var(--spacing);
     background: linear-gradient(var(--base), var(--base2), var(--base3), var(--base4));
     filter: blur(var(--blur));
@@ -24,7 +24,7 @@
     color: white;
     font-family: 'helvetica neue', sans-serif;
     font-weight: 100;
-    font-size: 28px;
+    font-size: 23px;
   }
   .controls {
     margin-bottom: 50px;
