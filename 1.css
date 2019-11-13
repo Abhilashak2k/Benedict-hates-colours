@@ -8,8 +8,8 @@
     --blur: 10px;
   }
   img {
-    height: 25%;
-    width:25%;
+    height: 29%;
+    width:29%;
     padding: var(--spacing);
     background: linear-gradient(var(--base), var(--base2), var(--base3), var(--base4));
     filter: blur(var(--blur));
