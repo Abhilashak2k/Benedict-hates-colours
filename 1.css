@@ -1,0 +1,34 @@
+
+  :root {
+    --base: #33FF52;
+    --base2: #3374FF;
+    --base3: #FFFF33;
+    --base4: #FF4C33;
+    --spacing: 10px;
+    --blur: 10px;
+  }
+  img {
+    height: 25%;
+    width:25%;
+    padding: var(--spacing);
+    background: linear-gradient(var(--base), var(--base2), var(--base3), var(--base4));
+    filter: blur(var(--blur));
+  }
+
+  /*
+    misc styles, nothing to do with CSS variables
+  */
+  body {
+    text-align: center;
+    background: linear-gradient(var(--base), var(--base2), var(--base3), var(--base4));
+    color: white;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+  }
+  .controls {
+    margin-bottom: 50px;
+  }
+  input {
+    width: 100px;
+  }
